@@ -3,7 +3,7 @@
 
 ---
 
-## Section 1: Schema Overview (4 marks)
+## Section 1: Schema Overview 
 
 FlexiMart’s data warehouse is designed using a **star schema** to support efficient analysis of historical sales transactions. The schema consists of a central fact table that stores measurable sales data and multiple surrounding dimension tables that provide descriptive context.
 
@@ -72,7 +72,7 @@ FlexiMart’s data warehouse is designed using a **star schema** to support effi
 
 ---
 
-## Section 2: Design Decisions (3 marks)
+## Section 2: Design Decisions 
 
 The star schema is constructed at the **transaction line-item level** and each row in the fact table represents a single product within a sales order. This level of granularity was chosen to preserve the most information and allow for accurate analysis of specific product sales, consumer behavior, and pricing fluctuations. It also permits customized reporting without compromising transactional data.
 
@@ -83,7 +83,7 @@ The design effectively supports roll-up and drill-down operations. Analysts can 
 
 ---
 
-## Section 3: Sample Data Flow (3 marks)
+## Section 3: Sample Data Flow 
 
 ### Source Transaction:
 - Order ID: **101**  
@@ -142,6 +142,7 @@ The design effectively supports roll-up and drill-down operations. Analysts can 
   "state": "Maharashtra",
   "country": "India"
 }
+
 
 
 
