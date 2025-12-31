@@ -57,7 +57,7 @@ The warehouse schema was implemented using SQL and created in a dedicated databa
 
 - `warehouse_schema.sql`
 
----
+----
 
 ### 4.2 Data Loading
 
