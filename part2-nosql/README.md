@@ -67,7 +67,7 @@ This section meets all evaluation criteria:
 - Embedded documents for reviews
 - Well-commented and readable code
 
----
+----
 
 ## Conclusion
 This part demonstrates how MongoDB effectively manages flexible, evolving product data for an e-commerce platform. The implementation highlights real-world NoSQL use cases and provides a scalable alternative to relational databases.
