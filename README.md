@@ -15,7 +15,7 @@ The implementation is divided into three parts: relational ETL and data quality 
 
 ---
 
-## Repository Structure
+```
 abhyuday-fleximart-data-architecture/
 ├── README.md                 # Root documentation
 ├── .gitignore                # Ignore unnecessary files
@@ -45,6 +45,8 @@ abhyuday-fleximart-data-architecture/
     ├── warehouse_schema.sql
     ├── warehouse_data.sql
     └── analytics_queries.sql
+
+```
     
 
 ---
@@ -58,8 +60,6 @@ abhyuday-fleximart-data-architecture/
 - **SQL** – Data definition, manipulation, and OLAP analytics  
 
 ---
-
-## Setup Instructions
 
 ## Project Breakdown
 
@@ -80,8 +80,9 @@ abhyuday-fleximart-data-architecture/
 - Implemented warehouse schema and data loading
 - Developed analytical SQL queries for reporting
 
+## Setup Instructions
+This section explains how to set up the FlexiMart relational database and run the ETL pipeline.
 
-### Relational Database & ETL
 
 ```bash
 # Create databases
@@ -99,7 +100,8 @@ mysql -u root -p fleximart_dw < part3-datawarehouse/warehouse_schema.sql
 mysql -u root -p fleximart_dw < part3-datawarehouse/warehouse_data.sql
 mysql -u root -p fleximart_dw < part3-datawarehouse/analytics_queries.sql
 
----
+```
+
 
 ## MongoDB Setup
 mongosh < part2-nosql/mongodb_operations.js
