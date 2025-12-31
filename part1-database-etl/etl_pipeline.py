@@ -23,7 +23,7 @@ report = {
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="7674",      # change if needed
+    password="Password",      
     database="fleximart"
 )
 cursor = conn.cursor()
@@ -246,3 +246,4 @@ with open("data_quality_report.txt", "w") as f:
 cursor.close()
 conn.close()
 print("\nETL PIPELINE COMPLETED SUCCESSFULLY")
+
