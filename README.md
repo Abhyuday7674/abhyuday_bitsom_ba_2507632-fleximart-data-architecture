@@ -45,6 +45,7 @@ abhyuday-fleximart-data-architecture/
     ├── warehouse_schema.sql
     ├── warehouse_data.sql
     └── analytics_queries.sql
+    
 
 ---
 
@@ -60,7 +61,27 @@ abhyuday-fleximart-data-architecture/
 
 ## Setup Instructions
 
-### Database Setup
+## Project Breakdown
+
+### Part 1: Database & ETL
+- Designed normalized relational schema
+- Implemented ETL pipeline using Python and pandas
+- Performed data validation and quality checks
+- Generated data quality report
+- Wrote SQL business queries
+
+### Part 2: NoSQL (MongoDB)
+- Designed document-based product catalog
+- Implemented CRUD and aggregation operations
+- Stored flexible product data in JSON format
+
+### Part 3: Data Warehouse
+- Designed star schema with fact and dimension tables
+- Implemented warehouse schema and data loading
+- Developed analytical SQL queries for reporting
+
+
+### Relational Database & ETL
 
 ```bash
 # Create databases
@@ -96,6 +117,13 @@ This project provided hands-on experience in designing and implementing ETL pipe
 This was resolved by implementing validation rules and generating a data quality report during the ETL process.
 2. Designing Schemas for Multiple Data Models
 This challenge was addressed by applying normalization for relational databases, document-based modeling for MongoDB, and star schema design for the data warehouse.
+
+
+---
+
+## Conclusion
+
+The FlexiMart Data Architecture Project demonstrates a complete data engineering workflow from raw data ingestion to analytical reporting. It highlights practical use of ETL pipelines, NoSQL databases, and data warehousing techniques in a real-world retail scenario.
 
 
 
