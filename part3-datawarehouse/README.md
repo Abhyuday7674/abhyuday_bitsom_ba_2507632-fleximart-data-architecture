@@ -93,16 +93,15 @@ The queries demonstrate how the star schema enables efficient aggregation and re
 - Dimensional modeling techniques  
 
 ---
+## 📁 Folder Structure (Part 3)
 
-## 7. Repository Structure (Part 3)
-
+```
 part3-datawarehouse/
 ├── star_schema_design.md
 ├── warehouse_schema.sql
 ├── warehouse_data.sql
 └── analytics_queries.sql
-
-
+```
 ---
 
 ## 8. Setup and Execution
