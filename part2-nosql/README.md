@@ -48,15 +48,15 @@ Operations included:
 5. Performing complex aggregation to calculate average price by category
 
 ---
+## 📁 Folder Structure (Part 2)
 
-## Folder Structure (Part 2)
-
+```
 part2-nosql/
 ├── README.md
 ├── nosql_analysis.md
 ├── mongodb_operations.js
 └── products_catalog.json
-
+```
 ---
 
 ## Evaluation Readiness
