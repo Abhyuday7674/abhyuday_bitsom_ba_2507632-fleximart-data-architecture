@@ -3,7 +3,8 @@
 -- Database: fleximart_dw
 -- =========================================================
 
-USE fleximart;
+USE fleximart_dw;
+
 
 -- =========================================================
 -- Query 1: Monthly Sales Drill-Down Analysis
@@ -92,3 +93,4 @@ GROUP BY
     customer_segment
 ORDER BY
     total_revenue DESC;
+
