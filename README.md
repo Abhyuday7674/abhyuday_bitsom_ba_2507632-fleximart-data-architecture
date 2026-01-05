@@ -3,7 +3,7 @@
 **Student Name:** Abhyuday Mishra  
 **Student ID:** [bitsom_ba_2507632]  
 **Email:** [abhyudaymishra7674@gmail.com]  
-**Date:** 31 December 2025
+**Date:** 5 January 2026
 
 ---
 
@@ -11,7 +11,13 @@
 
 The FlexiMart Data Architecture Project demonstrates an end-to-end data engineering workflow covering ETL processing, NoSQL data modeling, and data warehousing with OLAP analytics. The project transforms raw retail data into structured analytical models to support business intelligence and decision-making using SQL and MongoDB.
 
-The implementation is divided into three parts: relational ETL and data quality handling, NoSQL analysis using MongoDB, and a star-schema-based data warehouse with analytical queries.
+The project is divided into three major parts:
+
+Part 1: ETL pipeline using Python and MySQL
+
+Part 2: NoSQL analytics using MongoDB
+
+Part 3: Data warehousing and OLAP analytics using a star schema
 
 ---
 
@@ -95,17 +101,15 @@ python part1-database-etl/etl_pipeline.py
 # Run Part 1 - Business Queries
 mysql -u root -p fleximart < part1-database-etl/business_queries.sql
 
+# Run Part 2 - MongoDB Setup
+mongosh < part2-nosql/mongodb_operations.js
+
 # Run Part 3 - Data Warehouse
 mysql -u root -p fleximart_dw < part3-datawarehouse/warehouse_schema.sql
 mysql -u root -p fleximart_dw < part3-datawarehouse/warehouse_data.sql
 mysql -u root -p fleximart_dw < part3-datawarehouse/analytics_queries.sql
 
 ```
-
-
-## MongoDB Setup
-mongosh < part2-nosql/mongodb_operations.js
-
 ---
 
 ## Key Learnings
